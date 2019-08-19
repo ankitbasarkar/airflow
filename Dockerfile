@@ -15,6 +15,7 @@
 #
 # WARNING: THIS DOCKERFILE IS NOT INTENDED FOR PRODUCTION USE OR DEPLOYMENT.
 #
+#
 # Base image for the whole Docker file
 ARG APT_DEPS_IMAGE="airflow-apt-deps-ci-slim"
 ARG PYTHON_BASE_IMAGE="python:3.6-slim-stretch"
